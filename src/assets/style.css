@@ -1,0 +1,12 @@
+/* src/assets/style.css */
+
+.login-card {
+    max-width: 700px;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #333;
+}
+  
+.dt-buttons{
+    margin-bottom: 20px;
+}
