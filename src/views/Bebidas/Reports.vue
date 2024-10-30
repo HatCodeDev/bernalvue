@@ -12,12 +12,12 @@ import 'datatables.net-responsive-dt/css/responsive.dataTables.css';
 import 'datatables.net-responsive-dt/css/responsive.dataTables.min.css';
 import 'datatables.net-dt/css/dataTables.dataTables.css';
 import JSZip from 'jszip';
-import pdfMake from 'pdfmake/build/pdfmake';
-import 'pdfmake/build/vfs_fonts';
+// import pdfMake from 'pdfmake/build/pdfmake';
+// import pdfFonts from 'pdfmake/build/vfs_fonts';
+// pdfMake.vfs = pdfFonts.pdfMake.vfs;
 
 window.JSZip = JSZip;
 DataTable.use(ButtonsHtml5);
-
 
 const authStore = useAuthStore();
 axios.defaults.headers.common['Authorization'] = 'Bearer ' + authStore.authToken;
